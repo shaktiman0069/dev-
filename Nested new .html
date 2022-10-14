@@ -1,0 +1,68 @@
+<table border="2" align="center">
+    <caption><h1>Nested Tables</h1></caption>
+    <thead><tr>
+        <th>Header coloumn 1</th>
+        <th>Header coloumn 2</th>
+        <th>Header coloumn 3</th>
+        <th>Header coloumn 4</th>
+    </tr></thead>
+    <tr height="120">
+        <td>Row 2 Item 1</td>
+        <td>Row 2 Item 2</td>
+        <td rowspan="2">
+            <h3>R2:Nested Table 1</h3>
+            <table border="2" width="80%" align="center">
+                <tr>
+                    <th>Row 1 Header1</th>
+                    <td>Item</td>
+                    
+                </tr>
+                <tr>
+                    <th>Row2 Header1</th>
+                    <td>Item</td>
+                    
+                </tr>
+                <tr>
+                    <th>Row 3 Header 1</th>
+                    <td>Item</td>
+                    
+                </tr>
+            </table>
+            
+        </td>
+        <td>Row 2 Item 4</td>
+    </tr>
+    <tr height="120">
+        <td>
+            <h3>Row 3:Nested Table2</h3>
+            <br>
+            <table border="2" width="80%" align="center">
+                <tr>
+                    <th>Row 1 Header1</th>
+                    <td>Item</td>
+                    
+                </tr>
+                <tr>
+                    <th>Row 2 Hader1</th>
+                    <td>Item</td>
+                    
+                </tr>
+            </table>
+        </td>
+        <td>Row 3 Item2</td>
+         
+        <td rowspan="2">Row 3 Item 3</td>
+    </tr>
+    <tr>
+        <td>Row 4 Item 1</td>
+        <td>Row 4 Item 2</td>
+        <td>Row 4 Item 3</td>
+        
+    </tr>
+    <tr>
+        <td colspan="4">Row 5: Last Row of outer table </td>
+    </tr>
+</table>
+
+</body>
+</html>
